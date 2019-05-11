@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {  Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Events from './events/Events';
+import EventsContainer from './services/EventsContainer';
 import Home from './home/Home';
 import ContactUs from './contact-us/ContactUs';
 import Notfound from './not-found/NotFound';
@@ -15,7 +15,7 @@ const routing = (
           <Navbar></Navbar>
         <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/events" component={Events} />
+        <Route exact path="/events" component={EventsContainer} />
         <Route exact path="/contact" component={ContactUs} />
         <Route component={Notfound} />
         </Switch>

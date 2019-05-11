@@ -1,0 +1,16 @@
+{
+    "events":[
+
+        {
+        "date":"10 May 2019",
+        "title": "Event 1",
+        "description":"Dewsc 1"
+        },
+        {
+            "date":"11 May 2019",
+            "title": "Event 2",
+            "description":"Dewsc 2"
+            }
+
+    ]
+}

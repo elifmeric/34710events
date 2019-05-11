@@ -1,0 +1,32 @@
+.Navbar{
+
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+opacity: .7;
+    
+    ul{
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        justify-content: center;
+        margin: 0;
+        
+        li{
+            padding: 1rem;
+            font-size: 1.25rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            a{
+                color:white;
+                text-decoration: none;
+                &:hover{
+                    text-shadow: 1px 1px black;
+                }
+            }
+
+           
+  
+        }
+    }
+}
+
+
